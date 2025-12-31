@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -310,4 +312,157 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
+}
+
+/* About Page */
+
+.about-container {
+    background-image: url('./assets/about-us.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+
+}
+
+.about-line {
+    background-color: white;
+    margin-top: 1rem;
+    height: 0.1rem;
+    width: 28%;
+}
+
+/* Who We Are Section */
+
+.who-we-are-container {
+    margin: 5rem 10rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #033905;
+}
+
+.who-we-are-text {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    gap: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.who-we-are-text span {
+    background-color: #033905;
+    height: 0.1rem;
+    width: 8%;
+}
+
+.who-we-are-image {
+    width: 100%;
+    height: 600px;
+    border-radius: 2rem;
+}
+
+/*vision-mission-section*/
+
+.vision-mission-container {
+    margin: 5rem 10rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #033905;
+}
+
+.vision-mission-text {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    gap: 2rem;
+}
+
+.vision-mission-text span {
+    background-color: #033905;
+    height: 0.1rem;
+    width: 40%;
+}
+
+.icon {
+    font-size: 64px;
+    color: #033905;
+    margin-bottom: 1rem;
+}
+
+.vision-mission-content {
+    display: flex;
+    height: 46vh;
+    justify-content: space-around;
+    background-color: #e8fce8;
+    border-radius: 2rem;
+
+    align-items: center;
+}
+
+.vision-mission-content p {
+    text-align: justify;
+}
+
+.vision-mission-span {
+    background-color: #033905;
+    height: 100%;
+    width: 0.1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision,
+.mission {
+    padding: 5rem;
+    text-align: center;
+}
+
+.Experience-container {
+    display: flex;
+    height: 30vh;
+    margin: 5rem 20rem;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    color: #033905;
+    gap: 2rem;
+}
+
+.Experience-container span {
+    background-color: #033905;
+    height: 100px;
+    width: 0.1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-Experience {
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+.about-footer {
+    background-image: url('./assets/Vision-Mission.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
 }
