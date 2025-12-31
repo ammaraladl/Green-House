@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green House</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            Green House
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="Services.html" onclick="toggleMenu()">Services</a></li>
+                <li><a href="Technology.html" onclick="toggleMenu()">Technology</a></li>
+                <li><a href="Projects.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="Blog.html" onclick="toggleMenu()">Blog</a></li>
+                <li><a href="Contact.html" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="mobile-nav">
+        <div class="logo">
+            Green House
+        </div>
+        <div class="humburger-menu">
+            <div class="humburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="Services.html" onclick="toggleMenu()">Services</a></li>
+                <li><a href="Technology.html" onclick="toggleMenu()">Technology</a></li>
+                <li><a href="Projects.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="Blog.html" onclick="toggleMenu()">Blog</a></li>
+                <li><a href="Contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+</body>
+
+</html>
