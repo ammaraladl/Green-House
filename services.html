@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green House</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            Green House
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="Services.html" onclick="toggleMenu()">Services</a></li>
+                <li><a href="Technology.html" onclick="toggleMenu()">Technology</a></li>
+                <li><a href="Projects.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="Blog.html" onclick="toggleMenu()">Blog</a></li>
+                <li><a href="Contact.html" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="mobile-nav">
+        <div class="logo">
+            Green House
+        </div>
+        <div class="humburger-menu">
+            <div class="humburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="Services.html" onclick="toggleMenu()">Services</a></li>
+                <li><a href="Technology.html" onclick="toggleMenu()">Technology</a></li>
+                <li><a href="Projects.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="Blog.html" onclick="toggleMenu()">Blog</a></li>
+                <li><a href="Contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="services">
+        <div class="section-heading">
+            <h1>Our Services</h1>
+            <p>Discover the range of services we offer to help you create a sustainable
+                and eco-friendly living space.</p>
+        </div>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="./assets/Services-01.jpg" alt="" class="service-image">
+                <h2>Greenhouse Design</h2>
+                <p>Transform your outdoor space with sustainable landscaping solutions that conserve water and promote
+                    biodiversity.</p>
+                <button class="btn-card">Learn More</button>
+            </div>
+            <div class="service-card">
+                <img src="./assets/Services-02.jpg" alt="" class="service-image">
+                <h2>Smart Monitoring</h2>
+                <p>Harness the power of the sun with our custom solar panel installations designed to reduce your carbon
+                    footprint.</p>
+                <button class="btn-card">Learn More</button>
+            </div>
+            <div class="service-card">
+                <img src="./assets/Services-03.jpg" alt="" class="service-image">
+                <h2>Installation & Maintenance</h2>
+                <p>Implement effective waste reduction strategies and recycling programs
+                    tailored to your needs.</p>
+                <button class="btn-card">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="service-background-image">
+    </section>
+
+    <section id="service-container-image">
+        <div class="service-image-container">
+            <div class="services-content-01">
+                <div class="service-image-content">
+                    <img src="./assets/Services-01.jpg" alt="" class="content-image">
+                </div>
+                <div class="service-image-content">
+                    <img src="./assets/Services-01.jpg" alt="" class="content-image">
+                </div>
+                <div class="service-image-content">
+                    <img src="./assets/Services-03.jpg" alt="" class="content-image">
+                </div>
+            </div>
+            <div class="services-content-02">
+                <div class="service-image-content">
+                    <img src="./assets/Services-01.jpg" alt="" class="content-image">
+                </div>
+                <div class="service-image-content">
+                    <img src="./assets/Services-01.jpg" alt="" class="content-image">
+                </div>
+                <div class="service-image-content">
+                    <img src="./assets/Services-03.jpg" alt="" class="content-image">
+                </div>
+            </div>
+            <div class="services-content-03">
+                <div class="service-image-content">
+                    <img src="./assets/Services-01.jpg" alt="" class="content-image">
+                </div>
+                <div class="service-image-content">
+                    <img src="./assets/Services-01.jpg" alt="" class="content-image">
+                </div>
+                <div class="service-image-content">
+                    <img src="./assets/Services-03.jpg" alt="" class="content-image">
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
