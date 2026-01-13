@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green House</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            Green House
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="services.html" onclick="toggleMenu()">Services</a></li>
+                <li><a href="Technology.html" onclick="toggleMenu()">Technology</a></li>
+                <li><a href="Projects.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="Blog.html" onclick="toggleMenu()">Blog</a></li>
+                <li><a href="Contact.html" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="mobile-nav">
+        <div class="logo">
+            Green House
+        </div>
+        <div class="humburger-menu">
+            <div class="humburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="services.html" onclick="toggleMenu()">Services</a></li>
+                <li><a href="Technology.html" onclick="toggleMenu()">Technology</a></li>
+                <li><a href="Projects.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="Blog.html" onclick="toggleMenu()">Blog</a></li>
+                <li><a href="Contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="projects">
+        <div class="section-heading">
+            <h1>Our Projects</h1>
+            <p>Discover our portfolio of sustainable and eco-friendly projects
+                that make a positive impact on the environment.</p>
+        </div>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <h2>Solar-Powered Community Center</h2>
+                <p>A community center powered entirely by solar energy, promoting renewable energy use.</p>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project 2">
+                <h2>Urban Green Roof Initiative</h2>
+                <p>Transforming urban rooftops into green spaces to improve air quality and reduce heat.</p>
+            </div>
+            <div class="project-card">
+                <img src="project3.jpg" alt="Project 3">
+                <h2>Rainwater Harvesting System</h2>
+                <p>Implementing rainwater harvesting systems in residential areas to conserve water.</p>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
