@@ -21,5 +21,152 @@
         border-bottom: 0.1rem solid rgba(0, 0, 0, 0.3);
     }
 
+    #What-is-greenhouse {
+        margin-bottom: 30rem;
+    }
 
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 1rem;
+    }
+
+    .plant01 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .plant-card-container {
+        flex-direction: column;
+    }
+
+    #why-is-greenhouse {
+        margin-bottom: 50rem;
+    }
+
+    #CTA {
+        margin-top: 80rem;
+    }
+
+    .who-we-are-container {
+        margin: 10rem 1rem;
+    }
+
+    .who-we-are-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    .vision-mission-container {
+        margin: 5rem 4rem;
+    }
+
+    .vision-mission-content {
+        display: flex;
+        flex-direction: column;
+        height: 140vh;
+    }
+
+    .vision-mission-span {
+        background-color: #033905;
+        height: 0.1rem;
+        width: 10rem;
+    }
+
+    .Experience-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10rem 10rem;
+    }
+
+    .section-heading {
+        margin: 0 3rem;
+    }
+
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        margin: 40rem 0;
+    }
+
+    .service-image-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        height: 320vh;
+    }
+
+    .services-content-01 {
+        gap: 2rem;
+    }
+
+    .services-content-02 {
+        gap: 2rem;
+    }
+
+    .services-content-03 {
+        gap: 2rem;
+    }
+
+    .technology-heading {
+        padding: 0 3rem;
+    }
+
+    .technology-features-container-01 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .technology-features-image-01 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .technology-features-container-02 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20rem;
+    }
+
+    .technology-features-image-02 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 4rem 6rem;
+        gap: 4rem;
+    }
+
+    .blog-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    .map-container {
+        width: 75%;
+
+    }
+
+    .blog-footer {
+        height: 30vh;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 4rem;
+        gap: 1rem;
+
+    }
 }

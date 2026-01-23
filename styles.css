@@ -604,10 +604,6 @@ footer {
     width: fit-content;
 }
 
-#technology-features-02 {
-    background: linear-gradient(90deg, #e9f5ec 0%, #ffffff 80%);
-}
-
 .technology-features-container-02 {
     display: flex;
     height: 400px;
