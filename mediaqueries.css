@@ -43,11 +43,11 @@
     }
 
     #why-is-greenhouse {
-        margin-bottom: 50rem;
+        margin-bottom: 80rem;
     }
 
     #CTA {
-        margin-top: 80rem;
+        margin-top: 20rem;
     }
 
     .who-we-are-container {
@@ -136,6 +136,16 @@
     .technology-features-image-02 {
         width: 300px;
         height: 300px;
+    }
+
+    .projects-section-heading {
+        padding: 0 3rem;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
 
     .blog-container {
